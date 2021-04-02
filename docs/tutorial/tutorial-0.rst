@@ -75,6 +75,10 @@ This classfile can run on any Java 6 (or higher) VM. To run the project, type:
     > java -classpath ../voc/dist/python-java-support.jar;. python.example
     Hello World!
 
+remember you must have python dir,and you can't forget write it,or you will get an error about can't find main class.
+i.e:
+    java -classpath ../voc/dist/python-java-support.jar;. example       (X)
+it's not right.Be careful!Boys.
 
 Congratulations! You've just run your first Python program under Java using
 VOC! Now you're ready to get a little more adventurous.
